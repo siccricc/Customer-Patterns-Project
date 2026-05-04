@@ -603,4 +603,5 @@ customer.to_csv(os.path.join(OUTPUTS, 'customer_segments.csv'), index=False)
 rules_df.to_csv(os.path.join(OUTPUTS, 'association_rules.csv'), index=False)
 anomalies.to_csv(os.path.join(OUTPUTS, 'anomalies.csv'), index=False)
 
-print("\nAll analysis complete. Figures and outputs saved.")
+print("\nAll analysis complete. Figures and outputs saved.") 
+#And done
